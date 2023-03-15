@@ -36,10 +36,13 @@ h1{
     
 }
 
+
+
 .cont{
     display: flex;
     width: 100%;
     margin-top: 50px;
+    border: none
 
 
 
@@ -68,6 +71,11 @@ h1{
     /* background-color: #6b1e1e; */
 }
 
+ h1::selection , label::selection{
+    background: #51f398;
+
+}
+
 .area{
     width: 300px;
     height: 30px;
@@ -81,7 +89,6 @@ h1{
     width: 200px;
     height: 40px;
     font-weight: bolder;
-    border: none;
     background-color: #51F398 ;
     padding: 0.4rem 1rem;
     border-radius: 5px;
@@ -90,6 +97,72 @@ h1{
     margin: 10px;
 
 
+    
+}
+
+/* .submit{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#fff;
+    outline: 2px solid #7EFFB2;
+    padding: 30px 60px;
+    overflow: hidden;
+    transition: color 1s; 
+    background-color: #090909;
+
+}
+.submit:hover{
+    color: #090909;
+}
+.submit::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: -50px;
+    z-index: -1;
+    width: 150%;
+    height: 100%;
+    background-color: black;
+    transform: scale(0) skewX(35deg);
+    transform-origin: left;
+    transition: transform 1s;
+
+
+}
+.submit:hover::before{
+    transform: scale(1) skewX(35deg);
+} */
+
+@media (max-width: 800px){
+    .container{
+        width: auto;
+        display: flex;
+        
+    }
+    h1{
+        font-size: 20px;
+    }
+    #form{
+        width: 100%;
+        flex-wrap: wrap;
+        border: none;
+        
+    }
+    
+    label{
+       font-size: 15px; 
+    }
+        
+    .cont{
+        border:none;
+    }
+    #qrcode{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
     
 }
 
