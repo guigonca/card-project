@@ -7,7 +7,7 @@ let qrcodeimage = document.getElementById('qrcode')
 function generateImage() {
   qrcodeimage.innerHTML = ''
 
-  const text = `${window.location.protocol}://${window.location.host}/info?data=${name.value}=${linkedin.value}=${github.value}`
+  const text = `${window.location.protocol}//${window.location.host}/info?data=${name.value}=${linkedin.value}=${github.value}`
   
   new QRCode(qrcodeimage, {
     text,
