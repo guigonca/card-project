@@ -80,6 +80,11 @@ a{
     text-decoration: none;
     transition: 0.7s;
 }
+
+img{
+    width: 200px;
+    height: 150px;
+}
 #git:hover{
     background: rgba(101, 24, 180, 1);
     color: #000;
@@ -90,6 +95,10 @@ a{
   @media (max-width: 650px){
     .container{
         max-width: 350px;
+    }
+    img{
+        width: 150px;
+        height: 100px;
     }
   }
 
