@@ -35,7 +35,9 @@ h1{
     display: flex;
     width: 100%;
     margin-top: 50px;
-    border: none
+    border: none;
+    justify-content: center;
+    align-items: center;
 }
 
 #qrcode{
@@ -91,10 +93,12 @@ h1{
     .container{
         width: auto;
         display: flex;
+        height: auto;
         
     }
     h1{
         font-size: 20px;
+        padding: 16px;
     }
     #form{
         width: 100%;
@@ -109,12 +113,9 @@ h1{
         
     .cont{
         border:none;
-    }
-    #qrcode{
-        display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
     }
+    
     
 }
 
