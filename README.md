@@ -6,6 +6,12 @@ Card-project é uma aplicação front-end web e mobile contruída para atender a
 
 A aplicação consiste em coletar as informações de nome, link de direcionamento para o linkedin e para o Github, gerando um Qrcode que, por sua vez, apresenta um site com as informações personalizadas, fornecendo praticidade e modernidade ao compartilhar o seu cartão de visita.
 
+## Veja em funcionamento
+
+https://card-project-livid.vercel.app/
+#
+
+
 ## Layout mobile
 ![mobile1](https://user-images.githubusercontent.com/86698354/225508369-a30874c9-ffc4-47be-9e0b-104de9b6ec4d.png) ![mobile2](https://user-images.githubusercontent.com/86698354/225508457-b7a94f04-82aa-4610-a47c-0b897e7e7c87.png)
 
