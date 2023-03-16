@@ -15,10 +15,14 @@ body{
     background: #51F398;
     position: absolute;
 }
+h1::selection,h2::selection, p::selection, a::selection{
+    background: #51f398;
+}
 
 h2{
     margin: 25px;
 }
+
 
 .history{
     display: flex;
