@@ -16,9 +16,7 @@ body{
 h1{
     display: flex;
     text-align: center;
-    /* position: absolute; */
-    top: 120px;
-    
+    top: 120px;   
 }
 
 .container{
@@ -30,22 +28,14 @@ h1{
     align-items: center;
     background: white;
     box-shadow: 5px 5px 10px rgba(0,0,0, .212);
-    border-radius: 15px;
-    
-    
-    
+    border-radius: 15px;  
 }
-
-
 
 .cont{
     display: flex;
     width: 100%;
     margin-top: 50px;
     border: none
-
-
-
 }
 
 #qrcode{
@@ -54,8 +44,6 @@ h1{
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    
-    /* background-color: #51F398; */
 }
 
 /* information form */
@@ -68,7 +56,6 @@ h1{
     border-right: 2px solid black;
     font-size: 20px;
     font-weight: bolder;
-    /* background-color: #6b1e1e; */
 }
 
  h1::selection , label::selection{
@@ -99,41 +86,6 @@ h1{
 
     
 }
-
-/* .submit{
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    color:#fff;
-    outline: 2px solid #7EFFB2;
-    padding: 30px 60px;
-    overflow: hidden;
-    transition: color 1s; 
-    background-color: #090909;
-
-}
-.submit:hover{
-    color: #090909;
-}
-.submit::before{
-    content: '';
-    position: absolute;
-    top:0;
-    left: -50px;
-    z-index: -1;
-    width: 150%;
-    height: 100%;
-    background-color: black;
-    transform: scale(0) skewX(35deg);
-    transform-origin: left;
-    transition: transform 1s;
-
-
-}
-.submit:hover::before{
-    transform: scale(1) skewX(35deg);
-} */
 
 @media (max-width: 800px){
     .container{

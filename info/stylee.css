@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Noto+Serif+Khojki:wght@400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #51F398;
+    position: absolute;
+}
+
+h2{
+    margin: 25px;
+}
+
+.history{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    max-width: 600px;
+    min-height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(214, 214, 214);
+    box-shadow: 5px 5px 10px rgba(0,0,0, .212);
+    border-radius: 15px;  
+}
+
+a{
+    text-decoration: none;
+}
+
+/* button linkedin */
+#linke{
+    width: 120px;
+    height: 50px;
+    margin: 30px 10px 20px;
+    letter-spacing: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(214, 214, 214);
+    border: 2px solid  #0aa8e6;
+    text-decoration: none;
+    transition: 0.7s;
+}
+#linke:hover{
+  background: #0aa8e6;
+  color: #000;
+  box-shadow: 0 0 5px #0aa8e6, 0 0 10px #0aa8e6, 0 0 15px #0aa8e6;
+}
+
+/* button github */
+#git{
+    width: 120px;
+    height: 50px;
+    margin: 30px 10px 20px;
+    letter-spacing: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(214, 214, 214);
+    border: 2px solid  rgba(101, 24, 180, 1);
+    text-decoration: none;
+    transition: 0.7s;
+}
+#git:hover{
+    background: rgba(101, 24, 180, 1);
+    color: #000;
+    box-shadow: 0 0 5px rgba(101, 24, 180, 1), 0 0 10px rgba(101, 24, 180, 1), 0 0 15px rgba(101, 24, 180, 1);
+  }
+
+
+  @media (max-width: 650px){
+    .container{
+        max-width: 350px;
+    }
+  }
+
+  
